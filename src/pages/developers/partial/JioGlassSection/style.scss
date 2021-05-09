@@ -1,0 +1,14 @@
+.jio-glass-section{
+    .center-image{
+      display: flex;
+      justify-content: center;
+      .img-container{
+        width:200px;
+        z-index: 1;
+        img{
+          z-index: 1;
+          width:100%;
+        }
+      }
+    }
+  }

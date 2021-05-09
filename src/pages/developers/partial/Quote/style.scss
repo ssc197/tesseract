@@ -1,0 +1,50 @@
+
+.quote{
+  
+  padding-top: 50px;
+
+    h2{
+      color:var(--text-color-four);
+    }
+    .quote-list{
+      padding-top: 25px;
+      .card{
+        display: flex;
+        @media screen and (max-width: 577px) {
+          padding-bottom: 30px;
+        
+        }
+        .img-container{
+          max-width: 300px;
+          min-width: 300px;
+          height: 250px;
+          min-height: 250px;
+          @media screen and (max-width: 577px) {
+            max-width: 100%;
+            min-width: 100%;          }
+          img{
+            width: 100%;
+          }
+        }
+        .content{
+          padding: 15px;
+          h4{
+            color: var(--text-color-one);
+          }
+          p{
+            padding:0 ;
+            color:  var(--white);
+            i{
+              color:#797979;
+            }
+          }
+         
+        }
+        @media screen and (max-width: 577px) {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+  
+  

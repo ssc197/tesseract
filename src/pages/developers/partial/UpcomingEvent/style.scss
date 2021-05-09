@@ -1,0 +1,33 @@
+.UpcomingEvent{
+    background-color: #1A1A1A;
+    padding:30px 0;
+    .img-container{
+        display: flex;
+    justify-content: center;
+    }
+    .content {
+        top: 0;
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .title{
+          span{
+            width: 30px;
+            padding: 0 5px;
+            display: inline-block;
+            img{
+              width:100%;
+            }
+          }
+        }
+        .cta-links {
+          display: flex;
+          .cta-lists {
+            padding-left: 10px;
+          }
+        }
+      }
+}

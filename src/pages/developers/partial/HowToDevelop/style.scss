@@ -1,0 +1,32 @@
+.how-to-develop{
+    background-color:var(--white);
+    .container{
+        display: flex;
+        .content{
+            width:80%;
+            .title{
+                padding: 0;
+            }
+        }
+        .jio-cta{
+            button{
+                color:var(--text-color-one);
+    
+            }
+        }
+        .cta-container{
+            width:20%;
+            padding-left: 30px;
+            display: flex;
+            align-items: center;
+            border-left: 1px solid #CECECE;
+            @media screen and (max-width: 577px) {
+                width: 100%;
+                padding:0;
+                border:none;
+                padding-top: 15px;              
+              }
+        }
+    }
+
+}
