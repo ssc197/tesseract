@@ -16,6 +16,18 @@
         width: 100%;
       }
     }
+    .nav-links{
+      .nav-pill{
+        li{
+          a{
+            &:hover{
+              color:var(--text-color-two)
+            }
+          }
+       
+        }
+      }
+    }
   }
 }
 .ham-overlay{

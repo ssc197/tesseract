@@ -8,7 +8,7 @@ const HowToDevelop = ({ data }) => {
         <div className="container">
           <div className="content ">
             <h2 className="title m-all-0 text-left">{data.title}</h2>
-            <p className=" desc text-black p_all-0  text-left">{data.desc}</p>
+            <p className=" desc text-black   text-left">{data.desc}</p>
             <Button name={data.cta.name} route={data.cta.route} />
           </div>
           <div className="cta-container">
