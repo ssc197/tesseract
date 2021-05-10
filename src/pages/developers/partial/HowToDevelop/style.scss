@@ -2,8 +2,14 @@
     background-color:var(--white);
     .container{
         display: flex;
+        @media screen and (max-width: 577px) {
+      flex-direction: column;          
+          }
         .content{
             width:80%;
+            @media screen and (max-width: 577px) {
+                width: 100%;
+            }
             .title{
                 padding: 0;
             }
